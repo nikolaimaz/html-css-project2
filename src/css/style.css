@@ -1,0 +1,230 @@
+*{
+    font-family:'Roboto' , sans-serif ;
+}
+
+header{
+    position: relative;
+    
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    margin: 0;
+    padding:13px 70px;
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+.menu .menu_link {
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    }
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+
+    }
+
+.sub_header {
+    position: relative;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0, .6);
+    z-index: 2;
+    
+}
+
+.sub_header .sub_header_logo {
+    max-width: 100%;
+    margin-top: 16px;
+    display: block;
+
+}
+
+.sub_header .sub_header_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.sub_header .sub_header_call {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.sub_header .number{
+    margin-top: 8px;
+     color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.sub_header .call_us {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.top {
+    background:url("../../background/first_background.png")center center/cover no-repeat;
+    min-height: 800px;
+    text-align: center;
+    width:100%;
+    padding: 150px 0 135px 0;
+    transform: translateY(-84px);
+    z-index: 1;
+    
+}
+.top .uber{
+    padding-top: 67px;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+
+
+}
+
+.top .hiring{
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.top .descr {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.top .send {
+    margin-top: 118px;
+    margin-bottom: 135px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.work_with_us {
+    text-align: center;
+    padding-top: 79px;
+    background-color:white;
+    display: flex;
+    
+    
+}
+
+.work_with_us .all{
+    display: flex;
+    flex-direction: column;
+}
+
+.work_with_us .box{
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+
+.work_with_us .advantage{
+    padding-top:5px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+
+
+.work_with_us .reason {
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.work_with_us .icons{
+    margin-top: 75px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    
+    
+}
+
+.work_with_us .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.work_with_us .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.work_with_us .reasons_block .reasons_descr {
+    width: 343px;
+}
+
+.work_with_us .reasons_block .reasons_descr .reasons_subtitle{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.work_with_us .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+} 
